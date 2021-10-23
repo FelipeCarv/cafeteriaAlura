@@ -1,0 +1,277 @@
+body{
+   background-color: whitesmoke;
+   font-family: 'Quicksand', sans-serif;
+}
+
+header{
+    background:rgb(167, 113, 74);
+    padding: 15px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 10px;
+}
+
+nav li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav{
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+nav a:hover{
+    color: rgb(247, 195, 164);
+}
+
+/*MAIN__principal*/
+#container{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+.conteudo__principal{
+    padding: 2em;
+    width: 940px;
+    margin: 0 auto;
+}
+.conteudo__titulo{
+    text-align: center;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+    color: rgb(167, 113, 74);
+    font-size: 2em;
+    text-align: center;
+    font-size: 2em;
+    clear: both;
+}
+
+.apresentacao1 img{
+    width: 300px;
+    border-radius: 5px;
+    float: left;
+    margin: 10px 15px 20px 0;
+    box-shadow: 5px 5px 15px #000000;
+}
+
+.apresentacao1 p{
+    padding-top: 50px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.apresentacao1 ul{
+    padding: 20px;
+    display: inline-block;
+    color: rgb(143, 92, 55);
+}
+
+.apresentacao2{
+    margin-top: 40px;
+}
+
+.apresentacao2 img{
+    clear: both;
+    width: 300px;
+    border-radius: 5px;
+    float: right;
+    margin: 10px 15px 20px 0;
+    box-shadow: 5px 5px 15px #000000;
+}
+
+.apresentacao2 p{
+    clear: left;
+    padding-top: 90px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+
+.itens{
+    line-height: 1.3;
+}
+
+.itens:before{
+    content: "★";
+}
+
+
+.mapa{
+    clear: both;
+    padding-top: 60px;
+}
+
+.mapa-conteudo{
+    width: 940px;
+   margin: 0 auto;
+   box-shadow: 3px 5px 20px #000000
+}
+
+
+.video{
+    width: 560px;
+    margin: 2em auto;
+}
+
+/*PRODUTOS*/
+
+.apresentacao__produtos{
+    width: 940px;
+    margin: 0 auto;
+    
+}
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    padding: 20px 10px;
+}
+
+.produtos h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.produtos a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+}
+
+.produtos a:hover{
+    text-decoration: underline;
+    color: rgb(167, 113, 74);
+}
+
+.produto__descricao{
+    font-size: 18px;
+}
+
+.produto__preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+/*EVENTOS*/
+
+.eventos{
+    display: flex;
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.card{
+    margin: 30px 20px 40px 20px;
+    background-color: #ffffff;
+}
+
+.card:hover{
+    border-color: rgb(167, 113, 74);
+}
+
+.card-img-top{
+    height: 200px;
+    right: 140px;
+}
+
+.contato{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 40px 0;
+    
+}
+
+.contato a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 5px;
+    color: rgb(167, 113, 74);
+    border-color: rgb(167, 113, 74);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.contato a:hover{
+    color: rgb(167, 113, 74);
+}
+
+/*CONTATO*/
+
+
+form{
+    width: 940px;
+    margin: 40px auto;
+}
+
+form label{
+    display: block;
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 15px;
+    padding: 5px 20px;
+}
+
+.checkbox{
+    margin: 20px;
+}
+
+.enviar{
+    width: 25%;
+    padding: 20px;
+    background: none;
+    color: rgb(167, 113, 74);
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid rgb(167, 113, 74);
+    border-radius: 5px;
+    transition: 0.5s background;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: rgb(250, 227, 211)
+}
+
+.ap__ctt{
+    margin: 20px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+/**RODAPÉ*/
+footer{
+    text-align: center;
+    background:rgb(167, 113, 74);
+    color: cornsilk;
+    clear: both;
+}
+
+footer img{
+    margin-top: 10px;
+}
